@@ -6,7 +6,7 @@
 (s/def ::event-type
   #{:guild-create :guild-update :guild-delete :guild-role-create
     :guild-role-update :guild-role-delete :channel-create :channel-update
-    :channel-delete :channel-pins-update :guild-member-:guild-member-update
+    :channel-delete :channel-pins-update :guild-member-add :guild-member-update
     :guild-member-remove :guild-ban-add :guild-ban-remove :guild-emojis-update
     :guild-integrations-update :webhooks-update :invite-create :invite-delete
     :voice-state-update :presence-update :message-create :message-update
