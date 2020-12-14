@@ -5,7 +5,8 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [org.suskalo/discljord "1.2.0"]
-                 [ch.qos.logback/logback-classic "1.2.3"]]
+                 [ch.qos.logback/logback-classic "1.2.3"]
+                 [org.clojure/math.numeric-tower "0.0.4"]]
   :jvm-opts ["-Dclojure.tools.logging.factory=clojure.tools.logging.impl/slf4j-factory"]
   :main ^:skip-aot halp.core
   :target-path "target/%s"

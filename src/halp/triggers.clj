@@ -1,5 +1,5 @@
 (ns halp.triggers
-  (:require [clojure.spec.alpha :as s]))
+  (:require [clojure.spec.alpha :as spec]))
 
 (def event-intents
   {:guild-create                  [:guilds]
